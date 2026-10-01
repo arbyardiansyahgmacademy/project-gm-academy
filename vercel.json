@@ -1,0 +1,42 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/index.html",
+      "destination": "/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/artikel/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-details.html",
+      "destination": "/artikel/panduan-magang-smk-malang/",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio-details.html",
+      "destination": "/portfolio/detail/",
+      "permanent": true
+    },
+    {
+      "source": "/service-details.html",
+      "destination": "/layanan/",
+      "permanent": true
+    },
+    {
+      "source": "/starter-page.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
