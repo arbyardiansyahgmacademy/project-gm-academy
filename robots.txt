@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gmacademy.web.id/sitemap.xml
+Sitemap: https://gemilangtraining.web.id/sitemap.xml

@@ -1,6 +1,6 @@
 # PRODUCT REQUIREMENTS DOCUMENT (PRD)
 
-# Website GM Academy --- Digital Marketer Agency & Program Magang
+# Website Gemilang Training --- Digital Marketer Agency & Program Magang
 
 **Versi:** 1.0\
 **Tanggal:** Oktober 2026\
@@ -14,7 +14,7 @@ halaman.
 
 ## 1. Ringkasan Proyek
 
-GM Academy adalah perusahaan dengan dua fokus utama: layanan digital
+Gemilang Training adalah perusahaan dengan dua fokus utama: layanan digital
 marketing agency dan program magang untuk siswa SMK serta mahasiswa.
 Website harus menjelaskan identitas perusahaan, layanan, program magang,
 portfolio, artikel edukasi, FAQ, dan informasi kontak melalui
@@ -26,12 +26,12 @@ mengikuti lisensi dan ketentuan penggunaan template BootstrapMade.
 
 ### Positioning
 
-**GM Academy --- Digital Marketer Agency & Internship Center**
+**Gemilang Training --- Digital Marketer Agency & Internship Center**
 
 Pesan utama: **Mengembangkan Talenta Digital, Membangun Strategi
 Digital.**
 
-Deskripsi: GM Academy mengembangkan layanan digital dan pengalaman
+Deskripsi: Gemilang Training mengembangkan layanan digital dan pengalaman
 belajar berbasis proyek untuk bisnis, siswa SMK, serta mahasiswa. Klaim
 tentang hasil, klien, fasilitas, sertifikasi, atau keberhasilan tidak
 boleh ditambahkan tanpa bukti yang sah.
@@ -173,21 +173,21 @@ dan sitemap.
 
 **URL:** `/`\
 **SEO title:**
-`GM Academy | Digital Marketing Agency & Program Magang Malang`\
+`Gemilang Training | Digital Marketing Agency & Program Magang Malang`\
 **Meta description:**
-`Kenali GM Academy, digital marketer agency dengan program magang untuk siswa SMK dan mahasiswa di Malang serta layanan pengembangan digital.`\
+`Kenali Gemilang Training, digital marketer agency dengan program magang untuk siswa SMK dan mahasiswa di Malang serta layanan pengembangan digital.`\
 **H1:** `Digital Marketing Agency & Program Magang di Malang`
 
 ### Isi dan urutan section
 
 1.  **Hero**
-    -   Eyebrow: GM ACADEMY
+    -   Eyebrow: GEMILANG TRAINING
     -   Headline: "Mengembangkan Talenta Digital, Membangun Strategi
         Digital."
     -   Deskripsi singkat dua fokus: layanan digital dan pengalaman
         belajar berbasis proyek.
     -   CTA: "Lihat Layanan" dan "Program Magang".
-2.  **Tentang GM Academy**
+2.  **Tentang Gemilang Training**
     -   Ringkasan perusahaan dan tautan ke halaman Tentang Kami.
 3.  **Dua fokus utama**
     -   Digital Marketing Agency.
@@ -207,7 +207,7 @@ dan sitemap.
 9.  **Artikel terbaru**
     -   Tampilkan 3--6 artikel.
 10. **CTA akhir**
-    -   Daftar Magang / Hubungi GM Academy.
+    -   Daftar Magang / Hubungi Gemilang Training.
 11. **Footer global**.
 
 Homepage berfungsi sebagai pintu masuk dan ringkasan. Isi detail setiap
@@ -217,8 +217,8 @@ topik berada di halaman terpisah.
 
 **URL:** `/tentang-kami/`\
 **Title:**
-`Tentang GM Academy | Digital Marketing dan Pengembangan Talenta`\
-**H1:** `Tentang GM Academy`
+`Tentang Gemilang Training | Digital Marketing dan Pengembangan Talenta`\
+**H1:** `Tentang Gemilang Training`
 
 Isi: - Profil dan latar belakang perusahaan. - Dua fokus: layanan
 digital dan pengembangan talenta. - Pendekatan kerja dan pembelajaran. -
@@ -232,7 +232,7 @@ atau pencapaian.
 ## 7.3 Indeks Layanan
 
 **URL:** `/layanan/`\
-**Title:** `Layanan Digital Marketing GM Academy`\
+**Title:** `Layanan Digital Marketing Gemilang Training`\
 **H1:** `Layanan Digital Marketing`
 
 Isi: - Penjelasan umum layanan. - Kartu layanan yang mengarah ke halaman
@@ -242,7 +242,7 @@ implementasi → evaluasi. - CTA konsultasi.
 ## 7.4 Digital Marketing
 
 **URL:** `/layanan/digital-marketing/`\
-**Title:** `Layanan Digital Marketing | GM Academy`\
+**Title:** `Layanan Digital Marketing | Gemilang Training`\
 **H1:** `Layanan Digital Marketing`
 
 Isi: - Jawaban langsung tentang digital marketing. - Kebutuhan bisnis
@@ -257,7 +257,7 @@ sosial, dan iklan digital sesuai kebutuhan serta tujuan bisnis."
 ## 7.5 SEO
 
 **URL:** `/layanan/seo/`\
-**Title:** `Layanan SEO untuk Website Bisnis | GM Academy`\
+**Title:** `Layanan SEO untuk Website Bisnis | Gemilang Training`\
 **H1:** `Layanan SEO`
 
 Isi: - Pengertian SEO. - SEO teknis. - SEO on-page. - Riset kata kunci
@@ -270,7 +270,7 @@ Hindari menjanjikan peringkat tertentu atau hasil instan.
 ## 7.6 Social Media Marketing
 
 **URL:** `/layanan/social-media/`\
-**Title:** `Layanan Social Media Marketing | GM Academy`\
+**Title:** `Layanan Social Media Marketing | Gemilang Training`\
 **H1:** `Social Media Marketing`
 
 Isi: - Perencanaan strategi. - Kalender konten. - Copywriting dan konsep
@@ -280,7 +280,7 @@ FAQ. - CTA konsultasi.
 ## 7.7 Website Development
 
 **URL:** `/layanan/website-development/`\
-**Title:** `Layanan Website Development | GM Academy`\
+**Title:** `Layanan Website Development | Gemilang Training`\
 **H1:** `Website Development`
 
 Isi: - Company profile. - Website bisnis. - Landing page bila
@@ -293,7 +293,7 @@ keamanan, dan performa, bukan hanya tampilan.
 ## 7.8 Content Marketing
 
 **URL:** `/layanan/content-marketing/`\
-**Title:** `Layanan Content Marketing | GM Academy`\
+**Title:** `Layanan Content Marketing | Gemilang Training`\
 **H1:** `Content Marketing`
 
 Isi: - Strategi konten. - Riset audiens dan search intent. - Kalender
@@ -303,7 +303,7 @@ Evaluasi dan pembaruan konten.
 ## 7.9 Digital Advertising
 
 **URL:** `/layanan/digital-advertising/`\
-**Title:** `Layanan Digital Advertising | GM Academy`\
+**Title:** `Layanan Digital Advertising | Gemilang Training`\
 **H1:** `Digital Advertising`
 
 Isi: - Perencanaan kampanye. - Riset audiens. - Perencanaan materi
@@ -313,7 +313,7 @@ Penjelasan bahwa hasil bergantung pada banyak faktor.
 ## 7.10 Program Magang
 
 **URL:** `/program-magang/`\
-**Title:** `Program Magang SMK dan Mahasiswa di Malang | GM Academy`\
+**Title:** `Program Magang SMK dan Mahasiswa di Malang | Gemilang Training`\
 **H1:** `Program Magang SMK & Mahasiswa di Malang`
 
 Hero: - Headline: "Bangun Pengalaman. Kembangkan Skill. Buat
@@ -329,7 +329,7 @@ pendaftaran. - FAQ magang. - Formulir atau kontak resmi.
 ## 7.11 Magang SMK
 
 **URL:** `/program-magang/smk/`\
-**Title:** `Program Magang SMK di Malang | GM Academy`\
+**Title:** `Program Magang SMK di Malang | Gemilang Training`\
 **H1:** `Program Magang SMK di Malang`
 
 Isi: - Sasaran program. - Relevansi untuk PKL/Prakerin. - Bidang yang
@@ -340,7 +340,7 @@ Alur pendaftaran dan FAQ.
 ## 7.12 Internship Mahasiswa
 
 **URL:** `/program-magang/mahasiswa/`\
-**Title:** `Internship Mahasiswa di Malang | GM Academy`\
+**Title:** `Internship Mahasiswa di Malang | Gemilang Training`\
 **H1:** `Internship Mahasiswa di Malang`
 
 Isi: - Sasaran peserta. - Relevansi dengan program studi. - Pengalaman
@@ -351,8 +351,8 @@ kebijakan aktual.
 ## 7.13 Posisi Magang
 
 **URL:** `/program-magang/posisi/`\
-**Title:** `Posisi Magang di GM Academy | Bidang Digital`\
-**H1:** `Posisi Magang di GM Academy`
+**Title:** `Posisi Magang di Gemilang Training | Bidang Digital`\
+**H1:** `Posisi Magang di Gemilang Training`
 
 Kartu posisi yang dapat dipublikasikan jika tersedia: - Digital
 Marketing Intern. - SEO Intern. - Content Marketing Intern. - Social
@@ -365,7 +365,7 @@ menyebut posisi sebagai "dibuka" jika belum dikonfirmasi.
 ## 7.14 Kompetensi yang Dipelajari
 
 **URL:** `/program-magang/kompetensi/`\
-**Title:** `Kompetensi Program Magang Digital | GM Academy`\
+**Title:** `Kompetensi Program Magang Digital | Gemilang Training`\
 **H1:** `Kompetensi yang Dipelajari Selama Magang`
 
 Kelompok: - Digital: SEO, website, analitik, digital marketing. -
@@ -378,7 +378,7 @@ Bedakan kompetensi yang tersedia dari materi yang masih direncanakan.
 ## 7.15 Alur Pendaftaran
 
 **URL:** `/program-magang/alur-pendaftaran/`\
-**Title:** `Alur Pendaftaran Magang | GM Academy`\
+**Title:** `Alur Pendaftaran Magang | Gemilang Training`\
 **H1:** `Alur Pendaftaran Program Magang`
 
 Tahapan yang dapat disesuaikan: 1. Kenali program. 2. Pilih bidang yang
@@ -392,8 +392,8 @@ dikonfirmasi perusahaan.
 ## 7.16 Portfolio
 
 **URL:** `/portfolio/`\
-**Title:** `Portfolio dan Project GM Academy`\
-**H1:** `Portfolio & Project GM Academy`
+**Title:** `Portfolio dan Project Gemilang Training`\
+**H1:** `Portfolio & Project Gemilang Training`
 
 Kategori: - Semua. - Website. - SEO. - Digital Marketing. - Social
 Media. - Konten. - Project peserta.
@@ -404,7 +404,7 @@ benar-benar ada dan memiliki izin untuk ditampilkan.
 ## 7.17 Detail Portfolio
 
 **URL:** `/portfolio/[slug]/`\
-**Title:** `[Nama Project] | Portfolio GM Academy`\
+**Title:** `[Nama Project] | Portfolio Gemilang Training`\
 **H1:** Nama project.
 
 Struktur: - Ringkasan. - Latar belakang. - Tujuan. - Tantangan. -
@@ -416,7 +416,7 @@ Jangan mengarang klien, metrik, hasil bisnis, atau testimonial.
 ## 7.18 Indeks Artikel
 
 **URL:** `/artikel/`\
-**Title:** `Artikel Digital Marketing, SEO, dan Magang | GM Academy`\
+**Title:** `Artikel Digital Marketing, SEO, dan Magang | Gemilang Training`\
 **H1:** `Artikel dan Wawasan Digital`
 
 Kategori: - Digital Marketing. - SEO. - Website. - Social Media. -
@@ -429,7 +429,7 @@ diperlukan. - Pagination yang crawlable. - Tautan ke artikel terkait.
 ## 7.19 Detail Artikel
 
 **URL:** `/artikel/[slug]/`\
-**Title:** `[Judul Artikel] | GM Academy`\
+**Title:** `[Judul Artikel] | Gemilang Training`\
 **H1:** Judul artikel.
 
 Struktur: - Breadcrumb. - Kategori. - Judul. - Penulis yang
@@ -446,10 +446,10 @@ kata kunci atau visibilitas AI.
 ## 7.20 FAQ
 
 **URL:** `/faq/`\
-**Title:** `FAQ GM Academy | Program Magang dan Layanan Digital`\
+**Title:** `FAQ Gemilang Training | Program Magang dan Layanan Digital`\
 **H1:** `Pertanyaan yang Sering Ditanyakan`
 
-Kategori: - Tentang GM Academy. - Program Magang. - Magang SMK. -
+Kategori: - Tentang Gemilang Training. - Program Magang. - Magang SMK. -
 Internship Mahasiswa. - Bidang Magang. - Pendaftaran. - Layanan Digital
 Marketing. - Website dan SEO.
 
@@ -460,8 +460,8 @@ menjamin hasil kaya di Google.
 ## 7.21 Karier
 
 **URL:** `/karier/`\
-**Title:** `Karier di GM Academy`\
-**H1:** `Karier di GM Academy`
+**Title:** `Karier di Gemilang Training`\
+**H1:** `Karier di Gemilang Training`
 
 Isi: - Profil lingkungan kerja berdasarkan fakta. - Daftar posisi yang
 benar-benar tersedia. - Persyaratan. - Cara melamar. - Kontak.
@@ -472,8 +472,8 @@ dipublikasikan.
 ## 7.22 Kontak
 
 **URL:** `/kontak/`\
-**Title:** `Kontak GM Academy | Malang`\
-**H1:** `Hubungi GM Academy`
+**Title:** `Kontak Gemilang Training | Malang`\
+**H1:** `Hubungi Gemilang Training`
 
 Tampilkan hanya informasi resmi yang telah dikonfirmasi: - Nama
 perusahaan. - Email. - WhatsApp. - Alamat. - Jam operasional bila
@@ -526,7 +526,7 @@ status HTTP 404.
 -   Hierarki heading jelas.
 -   Kartu dengan jarak konsisten.
 -   Animasi seperlunya dan tidak mengganggu aksesibilitas.
--   Warna akhir mengikuti identitas merek GM Academy.
+-   Warna akhir mengikuti identitas merek Gemilang Training.
 -   Pastikan kontras teks dan latar memadai.
 -   Jangan mengubah seluruh website menjadi satu halaman panjang.
 
@@ -585,7 +585,7 @@ oleh mesin jawaban.
 
 ## 9.4 GEO --- Generative Engine Optimization
 
--   Jelaskan entitas GM Academy dengan konsisten.
+-   Jelaskan entitas Gemilang Training dengan konsisten.
 -   Gunakan nama, layanan, program, dan lokasi secara faktual.
 -   Publikasikan dokumentasi dan pengalaman nyata jika tersedia.
 -   Buat halaman layanan dan program yang jelas.
@@ -830,7 +830,7 @@ Baca Alur Pendaftaran
   ↓
 Formulir / WhatsApp
   ↓
-Konfirmasi oleh GM Academy
+Konfirmasi oleh Gemilang Training
 ```
 
 ## Alur calon klien
@@ -1017,7 +1017,7 @@ tersebut.
 
 # 18. Daftar Informasi yang Harus Dikonfirmasi Sebelum Produksi
 
--   Domain resmi GM Academy.
+-   Domain resmi Gemilang Training.
 -   Logo dan pedoman warna.
 -   Nama badan usaha resmi jika akan dicantumkan.
 -   Deskripsi perusahaan yang disetujui.
@@ -1040,7 +1040,7 @@ tersebut.
 # 19. Ringkasan Arsitektur Akhir
 
 ``` text
-GM ACADEMY
+GEMILANG TRAINING
 ├── Beranda
 ├── Tentang Kami
 ├── Layanan
@@ -1068,7 +1068,7 @@ GM ACADEMY
 
 ## Prinsip akhir
 
-Website GM Academy harus menjadi website perusahaan digital profesional
+Website Gemilang Training harus menjadi website perusahaan digital profesional
 yang memiliki dua jalur utama: **layanan digital marketing** dan
 **program magang**. Setiap halaman harus memiliki fungsi dan konten yang
 jelas, menggunakan Bahasa Indonesia, terhubung melalui navigasi dan
