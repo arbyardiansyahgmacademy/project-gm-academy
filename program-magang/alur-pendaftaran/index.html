@@ -46,9 +46,9 @@
         <ul>
           <li><a href="/">Beranda</a></li>
           <li><a href="/tentang-kami/">Tentang Kami</a></li>
-          <li class="dropdown"><a href="/layanan/"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="/layanan/"><span>Jasa</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="/layanan/">Semua Layanan</a></li>
+              <li><a href="/layanan/">Semua Jasa</a></li>
               <li><a href="/layanan/digital-marketing/">Digital Marketing</a></li>
               <li><a href="/layanan/seo/">SEO</a></li>
               <li><a href="/layanan/social-media/">Social Media Marketing</a></li>
@@ -80,20 +80,40 @@
 
   <main class="main">
 
-    <!-- Corporate Hero Banner -->
-    <section class="page-hero-corporate">
-      <div class="container text-center position-relative" style="z-index: 2;">
-        <span class="eyebrow-badge bg-white text-dark mb-3"><i class="bi bi-signpost-split-fill text-warning me-1"></i> Prosedur Resmi &amp; Formulir Online</span>
-        <h1 class="heading-title">Alur Pendaftaran Program Magang Gemilang Training</h1>
-        <p class="lead-subtitle">
-          Tahapan resmi pendaftaran Praktik Kerja Lapangan (PKL) siswa SMK dan program internship mahasiswa di Kota Malang. Transparan, terstruktur, dan terkonfirmasi secara digital.
-        </p>
-        <div class="breadcrumbs-corporate">
-          <a href="/"><i class="bi bi-house-door me-1"></i> Beranda</a>
-          <span class="divider">/</span>
-          <a href="/program-magang/">Program Magang</a>
-          <span class="divider">/</span>
-          <span class="active">Alur Pendaftaran</span>
+    <!-- Executive Corporate Split Hero with WebP Media -->
+    <section class="page-hero-corporate-split">
+      <div class="container position-relative z-1" data-aos="fade-up">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <span class="eyebrow-badge bg-white text-dark mb-3"><i class="bi bi-signpost-split-fill text-warning me-1"></i> Prosedur Resmi &amp; Formulir Online</span>
+            <h1 class="heading-title mb-3">Alur Pendaftaran Program Magang Gemilang Training</h1>
+            <p class="lead-subtitle mb-4 text-white" style="max-width: 620px;">
+              Tahapan resmi pendaftaran Praktik Kerja Lapangan (PKL) siswa SMK dan program internship mahasiswa di Kota Malang. Transparan, terstruktur, dan terkonfirmasi secara digital.
+            </p>
+            <div class="d-flex flex-wrap gap-3 align-items-center mb-4">
+              <a href="#formulir-magang" class="btn btn-primary-gm">
+                <i class="bi bi-send-check"></i> Isi Formulir Sekarang
+              </a>
+              <a href="#langkah-pendaftaran" class="btn btn-secondary-gm">
+                <i class="bi bi-123"></i> Lihat 6 Tahap
+              </a>
+            </div>
+            <div class="breadcrumbs-corporate">
+              <a href="/"><i class="bi bi-house-door me-1"></i> Beranda</a>
+              <span class="divider">/</span>
+              <a href="/program-magang/">Program Magang</a>
+              <span class="divider">/</span>
+              <span class="active">Alur Pendaftaran</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="page-hero-img-wrap">
+              <img src="/assets/img/program/alur/hero.webp" alt="Alur Pendaftaran Program Magang Gemilang Training Malang" width="900" height="540" fetchpriority="high">
+              <div class="hero-floating-badge">
+                <i class="bi bi-check2-circle text-warning"></i> Seleksi Transparan &amp; Konfirmasi Cepat
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -143,7 +163,7 @@
     </div>
 
     <!-- Main Content Section -->
-    <section class="section py-5">
+    <section id="langkah-pendaftaran" class="section py-5">
       <div class="container py-3">
 
         <!-- Direct Answer AEO Box -->
@@ -162,7 +182,7 @@
             <p class="text-muted">Ikuti alur terstruktur di bawah ini untuk memastikan kelancaran proses pengajuan magang Anda.</p>
           </div>
 
-          <div class="row g-4">
+          <div class="row g-4 mb-5">
             <div class="col-lg-4 col-md-6">
               <div class="step-node">
                 <div class="step-number-badge">1</div>
@@ -206,6 +226,28 @@
               </div>
             </div>
           </div>
+
+          <!-- Visual Media Showcase: Onboarding Orientation & Document Preparation -->
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+              <div class="content-visual-block shadow-md">
+                <img src="/assets/img/program/alur/onboarding.webp" alt="Sesi Wawancara Ramah dan Onboarding Orientasi Tim Magang" width="750" height="480" loading="lazy">
+                <div class="visual-caption-bar">
+                  <i class="bi bi-people-fill text-warning"></i>
+                  <span>Sesi Wawancara Ramah, Pemetaan Minat &amp; Orientasi Budaya Kerja</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="content-visual-block shadow-md">
+                <img src="/assets/img/program/alur/dokumen.webp" alt="Kelengkapan Berkas Administrasi Magang dan Surat Penerimaan Resmi" width="750" height="480" loading="lazy">
+                <div class="visual-caption-bar">
+                  <i class="bi bi-file-earmark-check-fill text-warning"></i>
+                  <span>Verifikasi Berkas Administrasi, MoU Sekolah &amp; Penerbitan LoA Cepat</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Formulir Pendaftaran Magang (Sesuai Bagian 13 PRD) -->
@@ -231,7 +273,7 @@
                     </div>
                     <div class="col-md-6">
                       <label for="whatsapp" class="form-label">Nomor WhatsApp Aktif <span class="text-danger">*</span></label>
-                      <input type="tel" id="whatsapp" class="form-control" placeholder="081234567890" required>
+                      <input type="tel" id="whatsapp" class="form-control" placeholder="0895639068080" required>
                     </div>
                     <div class="col-md-6">
                       <label for="statusPeserta" class="form-label">Status Peserta <span class="text-danger">*</span></label>
@@ -312,18 +354,6 @@
             <div class="footer-contact pt-3">
               <p>Digital Marketer Agency &amp; Internship Center di Kota Malang. Mengembangkan talenta digital masa depan melalui program magang praktis berbasis proyek nyata dan menghadirkan strategi pemasaran digital terukur untuk bisnis.</p>
             </div>
-            <div class="newsletter-form">
-              <h5>Buletin Edukasi &amp; Karir</h5>
-              <form action="../../forms/newsletter.php" method="post" class="php-email-form">
-                <div class="input-group">
-                  <input type="email" name="email" placeholder="Masukkan email Anda..." required="">
-                  <button type="submit" class="btn-subscribe" aria-label="Langganan Buletin"><i class="bi bi-send"></i></button>
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Terima kasih telah berlangganan!</div>
-              </form>
-            </div>
           </div>
 
           <div class="col-lg-2 col-md-3 col-6 footer-links">
@@ -331,7 +361,7 @@
             <ul>
               <li><a href="/"><i class="bi bi-chevron-right"></i> Beranda</a></li>
               <li><a href="/tentang-kami/"><i class="bi bi-chevron-right"></i> Tentang Kami</a></li>
-              <li><a href="/layanan/"><i class="bi bi-chevron-right"></i> Layanan Agency</a></li>
+              <li><a href="/layanan/"><i class="bi bi-chevron-right"></i> Jasa Agency</a></li>
               <li><a href="/portfolio/"><i class="bi bi-chevron-right"></i> Portfolio</a></li>
               <li><a href="/artikel/"><i class="bi bi-chevron-right"></i> Artikel &amp; Blog</a></li>
               <li><a href="/faq/"><i class="bi bi-chevron-right"></i> Tanya Jawab (FAQ)</a></li>
@@ -349,7 +379,7 @@
               <li><a href="/program-magang/posisi/"><i class="bi bi-chevron-right"></i> Posisi Magang</a></li>
               <li><a href="/program-magang/kompetensi/"><i class="bi bi-chevron-right"></i> Kompetensi Belajar</a></li>
               <li><a href="/program-magang/alur-pendaftaran/"><i class="bi bi-chevron-right"></i> Alur Pendaftaran</a></li>
-              <li><a href="/layanan/seo/"><i class="bi bi-chevron-right"></i> Layanan SEO</a></li>
+              <li><a href="/layanan/seo/"><i class="bi bi-chevron-right"></i> Jasa SEO</a></li>
               <li><a href="/layanan/website-development/"><i class="bi bi-chevron-right"></i> Web Development</a></li>
             </ul>
           </div>
@@ -370,7 +400,7 @@
                 <i class="bi bi-telephone"></i>
               </div>
               <div class="contact-info">
-                <p><a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="text-reset">+62 812-3456-7890</a></p>
+                <p><a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" class="text-reset">+62 895-6390-68080</a></p>
               </div>
             </div>
 
@@ -384,7 +414,7 @@
             </div>
 
             <div class="social-links">
-              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Gemilang Training"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Gemilang Training"><i class="bi bi-whatsapp"></i></a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram Gemilang Training"><i class="bi bi-instagram"></i></a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Gemilang Training"><i class="bi bi-linkedin"></i></a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube Gemilang Training"><i class="bi bi-youtube"></i></a>
@@ -417,7 +447,7 @@
 
   </footer>
 
-  <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="wa-floating-btn" aria-label="Konsultasi WhatsApp">
+  <a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" class="wa-floating-btn" aria-label="Konsultasi WhatsApp">
     <i class="bi bi-whatsapp"></i>
   </a>
 
@@ -454,7 +484,7 @@
         `Mohon informasi tindak lanjutnya. Terima kasih.`
       );
 
-      const waUrl = `https://wa.me/6281234567890?text=${waMessage}`;
+      const waUrl = `https://wa.me/62895639068080?text=${waMessage}`;
       document.getElementById('waDirectLink').href = waUrl;
       document.getElementById('formSuccessAlert').classList.remove('d-none');
       document.getElementById('formPendaftaranMagang').reset();

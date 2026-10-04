@@ -1004,7 +1004,7 @@ body:not(.index-page).scrolled .navmenu .dropdown ul li:hover > a {
 }
 .page-hero-corporate .lead-subtitle {
   font-size: 1.15rem;
-  color: #cbd5e1;
+  color: #ffffff;
   max-width: 720px;
   margin: 0 auto 24px;
   line-height: 1.7;
@@ -1021,6 +1021,30 @@ body:not(.index-page).scrolled .navmenu .dropdown ul li:hover > a {
   font-size: 0.88rem;
   margin-top: 10px;
 }
+.breadcrumbs-corporate ol,
+.breadcrumbs-corporate ul {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 8px !important;
+}
+.breadcrumbs-corporate ol li,
+.breadcrumbs-corporate ul li {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  color: #e2e8f0;
+}
+.breadcrumbs-corporate ol li + li::before,
+.breadcrumbs-corporate ul li + li::before {
+  content: "/" !important;
+  color: rgba(255, 255, 255, 0.4) !important;
+  margin-right: 6px !important;
+}
 .breadcrumbs-corporate a {
   color: #e2e8f0;
   text-decoration: none;
@@ -1032,10 +1056,12 @@ body:not(.index-page).scrolled .navmenu .dropdown ul li:hover > a {
 .breadcrumbs-corporate span.divider {
   color: rgba(255, 255, 255, 0.4);
 }
-.breadcrumbs-corporate span.active {
-  color: var(--gm-accent);
+.breadcrumbs-corporate span.active,
+.breadcrumbs-corporate li.current {
+  color: var(--gm-accent) !important;
   font-weight: 600;
 }
+
 
 /* 2. Stat Counter Bar */
 .stat-counter-bar {
@@ -2447,4 +2473,1079 @@ body:not(.index-page).scrolled .navmenu .dropdown ul li:hover > a {
 .prod-card-link-auto:hover {
   color: #ea7c00;
 }
+
+/* ==========================================================================
+   ENHANCED VISUAL & IMAGE STYLES FOR LAYANAN & PROGRAM MAGANG (2026)
+   Transforms text-heavy pages into elegant, professional corporate media layouts
+   ========================================================================== */
+
+/* Split Hero with Media Showcase */
+.page-hero-corporate-split {
+  padding: 130px 0 80px;
+  background: linear-gradient(135deg, #091a2c 0%, #0f2b48 60%, #16365c 100%);
+  color: #ffffff !important;
+  --heading-color: #ffffff !important;
+  position: relative;
+  overflow: hidden;
+}
+.page-hero-corporate-split .heading-title,
+.page-hero-corporate-split h1,
+.page-hero-corporate-split h2,
+.page-hero-corporate-split h3,
+.page-hero-corporate .heading-title,
+.page-hero-corporate h1,
+.page-hero-corporate h2,
+.page-hero-corporate h3 {
+  color: #ffffff !important;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+.page-hero-corporate-split .lead-subtitle,
+.page-hero-corporate-split p.lead-subtitle,
+.page-hero-corporate .lead-subtitle,
+.page-hero-corporate p.lead-subtitle,
+.page-hero-corporate-split .lead,
+.page-hero-corporate .lead {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+.page-hero-corporate-split .text-white-50,
+.page-hero-corporate .text-white-50 {
+  color: #ffffff !important;
+  opacity: 0.95 !important;
+}
+.page-hero-corporate-split .breadcrumbs-corporate,
+.page-hero-corporate .breadcrumbs-corporate {
+  color: #ffffff !important;
+}
+.page-hero-corporate-split .breadcrumbs-corporate a,
+.page-hero-corporate .breadcrumbs-corporate a,
+.page-hero-corporate-split .breadcrumbs-corporate span,
+.page-hero-corporate .breadcrumbs-corporate span {
+  color: #ffffff !important;
+  opacity: 0.95;
+}
+.page-hero-corporate-split .breadcrumbs-corporate .active,
+.page-hero-corporate .breadcrumbs-corporate .active {
+  color: #ea7c00 !important;
+  opacity: 1;
+}
+.page-hero-corporate-split::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 80% 20%, rgba(234, 124, 0, 0.15), transparent 50%),
+              radial-gradient(circle at 20% 80%, rgba(16, 185, 129, 0.1), transparent 45%);
+  pointer-events: none;
+}
+.page-hero-img-wrap {
+  position: relative;
+  border-radius: var(--gm-radius-lg);
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: #0f2b48;
+}
+.page-hero-img-wrap img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.page-hero-img-wrap:hover img {
+  transform: scale(1.04);
+}
+.hero-floating-badge {
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+  background: rgba(15, 43, 72, 0.9);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px 18px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 2;
+}
+
+/* Service Card with Image Header */
+.service-card-media {
+  position: relative;
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  margin-top: -36px;
+  margin-bottom: 22px;
+  height: 200px;
+  overflow: hidden;
+  border-top-left-radius: var(--gm-radius-lg);
+  border-top-right-radius: var(--gm-radius-lg);
+  background: #f1f5f9;
+}
+.service-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.service-card-premium:hover .service-card-media img {
+  transform: scale(1.08);
+}
+.service-card-media .media-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.18);
+}
+
+/* Pathway Card with Image Header */
+.pathway-card-media {
+  width: calc(100% + 64px);
+  margin-left: -32px;
+  margin-top: -32px;
+  margin-bottom: 22px;
+  height: 220px;
+  overflow: hidden;
+  border-top-left-radius: var(--gm-radius-lg);
+  border-top-right-radius: var(--gm-radius-lg);
+  position: relative;
+  background: #f1f5f9;
+}
+.pathway-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.pathway-card:hover .pathway-card-media img {
+  transform: scale(1.08);
+}
+.pathway-card-media .media-badge {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Internship Track Card with Thumbnail Image */
+.track-card-media {
+  width: calc(100% + 48px);
+  margin-left: -24px;
+  margin-top: -24px;
+  margin-bottom: 18px;
+  height: 160px;
+  overflow: hidden;
+  border-top-left-radius: var(--gm-radius-lg);
+  border-top-right-radius: var(--gm-radius-lg);
+  position: relative;
+  background: #f1f5f9;
+}
+.track-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.internship-track-card:hover .track-card-media img {
+  transform: scale(1.09);
+}
+
+/* Content Visual Showcase Blocks */
+.content-visual-block {
+  position: relative;
+  border-radius: var(--gm-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--gm-shadow-md);
+  border: 1px solid var(--gm-border);
+  background: #f8fafc;
+}
+.content-visual-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.content-visual-block:hover img {
+  transform: scale(1.03);
+}
+.visual-caption-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px 20px;
+  background: linear-gradient(180deg, transparent 0%, rgba(15, 43, 72, 0.95) 100%);
+  color: #ffffff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Interactive Pill Badges for Tech / Division Tags */
+.modern-media-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(15, 43, 72, 0.06);
+  color: var(--gm-primary);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 50px;
+  border: 1px solid rgba(15, 43, 72, 0.12);
+  transition: all 0.25s ease;
+}
+.modern-media-badge:hover {
+  background: var(--gm-primary);
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   COMPREHENSIVE MOBILE RESPONSIVE & PROPORTIONAL UX SYSTEM (2026 Edition)
+   Ensures all pages are user-friendly, proportional, and balanced
+   from Hero to Footer on all mobile screens (320px - 768px).
+   ========================================================================== */
+
+/* --- 1. Global Mobile Reset & Fluid Safety --- */
+@media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+  }
+  
+  img, iframe, video, svg {
+    max-width: 100% !important;
+    height: auto;
+  }
+
+  .container {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+}
+
+/* --- 2. Mobile Header & Navigation Ergonomics --- */
+@media (max-width: 768px) {
+  .header {
+    padding: 12px 0 !important;
+  }
+
+  .header .container-fluid {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .header .logo h1,
+  .header .logo .sitename {
+    font-size: 1.15rem !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.3px !important;
+  }
+
+  .header .cta-btn {
+    display: none !important;
+  }
+
+  .mobile-nav-toggle {
+    font-size: 26px !important;
+    width: 36px !important;
+    height: 36px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 8px !important;
+    margin-right: 0 !important;
+  }
+
+  /* Enhanced Mobile Navigation Drawer */
+  .mobile-nav-active .navmenu {
+    background: rgba(15, 43, 72, 0.75) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+  }
+
+  .mobile-nav-active .navmenu > ul {
+    inset: 68px 16px 20px 16px !important;
+    border-radius: 18px !important;
+    background: #ffffff !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid #e2e8f0 !important;
+    padding: 14px 0 !important;
+    max-height: calc(100vh - 100px) !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .navmenu a, 
+  .navmenu a:focus {
+    padding: 12px 20px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #1e293b !important;
+    white-space: normal !important;
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .navmenu .dropdown ul {
+    margin: 4px 14px 10px 14px !important;
+    border-radius: 10px !important;
+    background: #f8fafc !important;
+    border: 1px solid #e2e8f0 !important;
+    padding: 6px 0 !important;
+  }
+
+  .navmenu .dropdown ul li a {
+    padding: 9px 16px !important;
+    font-size: 13.5px !important;
+    font-weight: 500 !important;
+    color: #475569 !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .header .logo h1,
+  .header .logo .sitename {
+    font-size: 1.05rem !important;
+    max-width: 220px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+}
+
+/* --- 3. Homepage Hero Section (#hero) Proportional Scaling --- */
+@media (max-width: 768px) {
+  #hero,
+  .hero {
+    min-height: 520px !important;
+    height: auto !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .hero .info {
+    padding: 85px 16px 45px 16px !important; /* Overrides the restrictive 100px 50px 60px 50px */
+    width: 100% !important;
+  }
+
+  .hero .info h2 {
+    font-size: clamp(1.45rem, 5.2vw, 1.85rem) !important;
+    line-height: 1.25 !important;
+    font-weight: 800 !important;
+    margin-bottom: 14px !important;
+    padding-bottom: 14px !important;
+    letter-spacing: -0.2px !important;
+    text-align: center !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .hero .info h2:after {
+    width: 50px !important;
+    height: 3px !important;
+  }
+
+  .hero .info p {
+    font-size: 0.92rem !important;
+    line-height: 1.6 !important;
+    max-width: 96% !important;
+    margin: 0 auto 20px auto !important;
+    text-align: center !important;
+    color: rgba(255, 255, 255, 0.88) !important;
+  }
+
+  .hero .info .btn-get-started {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 280px !important;
+    margin: 6px auto !important;
+    padding: 12px 24px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3px !important;
+    min-height: 46px !important;
+    border-radius: 50px !important;
+    text-align: center !important;
+  }
+
+  .hero .carousel-control-prev,
+  .hero .carousel-control-next {
+    display: none !important;
+  }
+
+  .hero .carousel-control-prev-icon,
+  .hero .carousel-control-next-icon {
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 16px !important;
+  }
+}
+
+/* --- 4. Inner Page Hero Banners (.page-hero-corporate & .page-hero-corporate-split) --- */
+@media (max-width: 768px) {
+  .page-hero-corporate {
+    padding: 92px 16px 42px !important;
+    text-align: center !important;
+  }
+
+  .page-hero-corporate-split {
+    padding: 95px 16px 45px !important;
+    text-align: center !important;
+  }
+
+  .page-hero-corporate .heading-title,
+  .page-hero-corporate-split .heading-title,
+  .page-hero-corporate h1,
+  .page-hero-corporate-split h1 {
+    font-size: clamp(1.48rem, 5.2vw, 1.95rem) !important;
+    line-height: 1.25 !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.3px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .page-hero-corporate .lead-subtitle,
+  .page-hero-corporate-split .lead-subtitle,
+  .page-hero-corporate p.lead-subtitle,
+  .page-hero-corporate-split p.lead-subtitle {
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+    margin: 0 auto 18px auto !important;
+    max-width: 95% !important;
+  }
+
+  .breadcrumbs-corporate,
+  .page-hero-corporate-split .breadcrumbs-corporate {
+    display: inline-flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    padding: 6px 14px !important;
+    font-size: 0.78rem !important;
+    border-radius: 50px !important;
+    margin-top: 6px !important;
+  }
+
+  .page-hero-img-wrap {
+    margin-top: 24px !important;
+    border-radius: 14px !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .hero-floating-badge {
+    font-size: 11.5px !important;
+    padding: 6px 12px !important;
+    bottom: 12px !important;
+    left: 12px !important;
+    border-radius: 8px !important;
+  }
+}
+
+/* --- 5. Floating Stat Counter Bar on Mobile --- */
+@media (max-width: 768px) {
+  .stat-counter-bar {
+    margin-top: -20px !important;
+    padding: 16px 10px !important;
+    border-radius: 14px !important;
+    box-shadow: 0 8px 24px rgba(15, 43, 72, 0.08) !important;
+  }
+
+  .stat-item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 8px 6px !important;
+  }
+
+  .stat-icon {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    font-size: 18px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .stat-info h3 {
+    font-size: 1.25rem !important;
+    line-height: 1.15 !important;
+    margin: 0 !important;
+    font-weight: 800 !important;
+  }
+
+  .stat-info p {
+    font-size: 0.72rem !important;
+    line-height: 1.25 !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+  }
+
+  .border-end-lg {
+    border-right: none !important;
+  }
+}
+
+/* --- 6. Section Spacing & Headings Rhythm --- */
+@media (max-width: 768px) {
+  section,
+  .section {
+    padding: 38px 0 !important;
+  }
+
+  section.py-5,
+  .section.py-5,
+  .py-5 {
+    padding-top: 1.85rem !important;
+    padding-bottom: 1.85rem !important;
+  }
+
+  .container.py-4 {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+
+  .eyebrow-badge {
+    font-size: 0.72rem !important;
+    padding: 4px 12px !important;
+    border-radius: 50px !important;
+    margin-bottom: 10px !important;
+    display: inline-block !important;
+    letter-spacing: 0.4px !important;
+  }
+
+  h2.fw-bold,
+  h2.display-6,
+  .section-title h2,
+  .section h2 {
+    font-size: clamp(1.35rem, 4.4vw, 1.75rem) !important;
+    line-height: 1.3 !important;
+    margin-bottom: 12px !important;
+    letter-spacing: -0.2px !important;
+  }
+
+  p.lead,
+  .section-title p,
+  .max-w-700 p,
+  p.text-muted {
+    font-size: 0.88rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 1.75rem !important;
+  }
+
+  .mb-4 {
+    margin-bottom: 1.25rem !important;
+  }
+}
+
+/* --- 7. Dual Focus Cards Mobile Proportion --- */
+@media (max-width: 768px) {
+  .dual-focus-card {
+    padding: 20px 16px !important;
+    border-radius: 16px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .df-header {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .df-pill {
+    font-size: 0.72rem !important;
+    padding: 4px 10px !important;
+  }
+
+  .df-tag {
+    font-size: 0.72rem !important;
+    padding: 4px 10px !important;
+  }
+
+  .df-title {
+    font-size: 1.35rem !important;
+    line-height: 1.25 !important;
+    margin-bottom: 8px !important;
+    font-weight: 800 !important;
+  }
+
+  .df-lead {
+    font-size: 0.86rem !important;
+    line-height: 1.55 !important;
+    margin-bottom: 16px !important;
+  }
+
+  .df-metric-strip {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 6px !important;
+    padding: 10px 8px !important;
+    border-radius: 12px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .df-metric-item {
+    text-align: center !important;
+    display: block !important;
+  }
+
+  .df-metric-val {
+    font-size: 1.05rem !important;
+    font-weight: 800 !important;
+    line-height: 1.1 !important;
+  }
+
+  .df-metric-lbl {
+    font-size: 0.65rem !important;
+    letter-spacing: 0 !important;
+    margin-top: 3px !important;
+  }
+
+  .df-subheading {
+    font-size: 0.74rem !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .df-feature-grid {
+    grid-template-columns: 1fr !important;
+    gap: 9px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .df-feature-card {
+    padding: 10px 12px !important;
+    border-radius: 10px !important;
+    gap: 10px !important;
+  }
+
+  .df-feat-icon {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 15px !important;
+    border-radius: 8px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .df-feat-title {
+    font-size: 0.86rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 2px !important;
+  }
+
+  .df-feat-desc {
+    font-size: 0.77rem !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+  }
+
+  .df-reassurance {
+    font-size: 0.76rem !important;
+    margin-bottom: 12px !important;
+    text-align: center !important;
+  }
+
+  .df-btn-navy,
+  .df-btn-amber {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 12px 18px !important;
+    font-size: 0.88rem !important;
+    font-weight: 700 !important;
+    border-radius: 50px !important;
+    width: 100% !important;
+    text-align: center !important;
+    min-height: 46px !important;
+  }
+}
+
+/* --- 8. Process Timeline (Step-by-Step) Mobile Flow --- */
+@media (max-width: 768px) {
+  .step-timeline {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    margin: 20px 0 !important;
+  }
+
+  .step-item {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 14px !important;
+    text-align: left !important;
+    padding: 16px 14px !important;
+    border-radius: 14px !important;
+  }
+
+  .step-number {
+    margin: 0 !important;
+    flex-shrink: 0 !important;
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 15px !important;
+    border-radius: 50% !important;
+  }
+
+  .step-title {
+    font-size: 0.98rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 4px !important;
+  }
+
+  .step-desc {
+    font-size: 0.82rem !important;
+    line-height: 1.45 !important;
+    margin: 0 !important;
+    color: var(--gm-text-muted) !important;
+  }
+}
+
+/* --- 9. Universal Cards (Portfolio, Articles, Services, Tracks) --- */
+@media (max-width: 768px) {
+  .card {
+    border-radius: 16px !important;
+  }
+
+  .card-img-top {
+    height: 175px !important;
+    object-fit: cover !important;
+  }
+
+  .card-body {
+    padding: 16px !important;
+  }
+
+  .card-body h5,
+  .card-body h4 {
+    font-size: 1.05rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .card-body p {
+    font-size: 0.84rem !important;
+    line-height: 1.55 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .card-body .badge {
+    font-size: 0.72rem !important;
+    padding: 4px 10px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .track-card-media,
+  .pathway-card-media {
+    height: 150px !important;
+    width: calc(100% + 32px) !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    margin-top: -16px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .content-visual-block {
+    border-radius: 14px !important;
+  }
+
+  .visual-caption-bar {
+    padding: 10px 14px !important;
+    font-size: 0.8rem !important;
+  }
+
+  .recommendations.grid-240 {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .recommend-item .thumb img {
+    height: 150px !important;
+  }
+
+  .recommend-item .body {
+    padding: 16px !important;
+  }
+}
+
+/* --- 10. Forms Ergonomics on Mobile (Kontak, Alur, Karier, Newsletter) --- */
+@media (max-width: 768px) {
+  .form-card {
+    padding: 20px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .form-card h3 {
+    font-size: 1.25rem !important;
+    margin-bottom: 6px !important;
+  }
+
+  .form-label {
+    font-size: 0.85rem !important;
+    margin-bottom: 4px !important;
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 16px !important; /* 16px base font prevents iOS browser zoom */
+    min-height: 46px !important;
+    padding: 10px 14px !important;
+    border-radius: 10px !important;
+  }
+
+  textarea.form-control {
+    min-height: 100px !important;
+  }
+
+  .form-card .btn,
+  .form-card button[type="submit"] {
+    width: 100% !important;
+    min-height: 48px !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    border-radius: 50px !important;
+  }
+
+  .alert {
+    padding: 12px 14px !important;
+    font-size: 0.85rem !important;
+    border-radius: 12px !important;
+  }
+}
+
+/* --- 11. FAQ Accordions Proportional Mobile Styling --- */
+@media (max-width: 768px) {
+  .gm-accordion .accordion-item {
+    border-radius: 12px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .gm-accordion .accordion-button {
+    padding: 14px 16px !important;
+    font-size: 0.9rem !important;
+    line-height: 1.35 !important;
+    font-weight: 700 !important;
+  }
+
+  .gm-accordion .accordion-body {
+    padding: 14px 16px !important;
+    font-size: 0.85rem !important;
+    line-height: 1.55 !important;
+  }
+}
+
+/* --- 12. Final Call-to-Action (CTA) Banners --- */
+@media (max-width: 768px) {
+  #cta-akhir,
+  .cta-banner,
+  section[id*="cta"] {
+    padding: 40px 16px !important;
+  }
+
+  #cta-akhir h2,
+  .cta-banner h2 {
+    font-size: clamp(1.35rem, 4.5vw, 1.7rem) !important;
+    line-height: 1.3 !important;
+    margin-bottom: 12px !important;
+  }
+
+  #cta-akhir p.lead,
+  .cta-banner p.lead {
+    font-size: 0.88rem !important;
+    line-height: 1.55 !important;
+    margin-bottom: 20px !important;
+  }
+
+  #cta-akhir .btn,
+  .cta-banner .btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 290px !important;
+    margin: 6px auto !important;
+    padding: 12px 20px !important;
+    font-size: 0.9rem !important;
+    font-weight: 700 !important;
+    min-height: 46px !important;
+    border-radius: 50px !important;
+  }
+}
+
+/* --- 13. Global Footer Proportional Layout --- */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0 0 !important;
+  }
+
+  .footer .sitename {
+    font-size: 1.35rem !important;
+  }
+
+  .footer-contact p {
+    font-size: 0.84rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .footer h4 {
+    font-size: 0.98rem !important;
+    margin-bottom: 14px !important;
+    font-weight: 700 !important;
+  }
+
+  .footer-links {
+    margin-bottom: 22px !important;
+  }
+
+  .footer-links ul li {
+    padding: 5px 0 !important;
+    font-size: 0.85rem !important;
+  }
+
+  .footer-links ul li a {
+    display: inline-block !important;
+    padding: 2px 0 !important;
+  }
+
+  .contact-item {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .contact-icon {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 15px !important;
+    border-radius: 8px !important;
+    flex-shrink: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    color: var(--gm-accent) !important;
+  }
+
+  .contact-info p {
+    font-size: 0.86rem !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    word-break: break-word !important;
+  }
+
+  .social-links {
+    display: flex !important;
+    gap: 8px !important;
+    margin-top: 14px !important;
+    flex-wrap: wrap !important;
+  }
+
+  .social-links a {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+    border-radius: 50% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .footer-bottom {
+    padding: 16px 0 !important;
+    text-align: center !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+    margin-top: 24px !important;
+  }
+
+  .footer-bottom .copyright {
+    font-size: 0.8rem !important;
+    text-align: center !important;
+    margin-bottom: 8px !important;
+  }
+
+  .footer-bottom-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 12px !important;
+    font-size: 0.78rem !important;
+    text-align: center !important;
+  }
+}
+
+/* --- 14. Floating WhatsApp & Scroll-to-Top Ergonomics --- */
+@media (max-width: 576px) {
+  .wa-floating-btn {
+    bottom: 16px !important;
+    right: 16px !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 27px !important;
+    z-index: 1050 !important;
+  }
+
+  .scroll-top {
+    right: 19px !important;
+    width: 44px !important;
+    height: 44px !important;
+    z-index: 1049 !important;
+  }
+
+  .scroll-top.active {
+    bottom: 74px !important;
+  }
+
+  .scroll-top i {
+    font-size: 20px !important;
+  }
+}
+
+/* --- 15. Responsive Data Tables & Responsive Embeds --- */
+@media (max-width: 768px) {
+  .table-responsive {
+    border-radius: 12px !important;
+    border: 1px solid var(--gm-border) !important;
+    font-size: 0.85rem !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .table th, 
+  .table td {
+    padding: 10px 12px !important;
+  }
+}
+
+
 

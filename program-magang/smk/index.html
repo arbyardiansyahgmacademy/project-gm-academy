@@ -46,9 +46,9 @@
         <ul>
           <li><a href="/">Beranda</a></li>
           <li><a href="/tentang-kami/">Tentang Kami</a></li>
-          <li class="dropdown"><a href="/layanan/"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="/layanan/"><span>Jasa</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="/layanan/">Semua Layanan</a></li>
+              <li><a href="/layanan/">Semua Jasa</a></li>
               <li><a href="/layanan/digital-marketing/">Digital Marketing</a></li>
               <li><a href="/layanan/seo/">SEO</a></li>
               <li><a href="/layanan/social-media/">Social Media Marketing</a></li>
@@ -80,20 +80,40 @@
 
   <main class="main">
 
-    <!-- Corporate Hero Banner -->
-    <section class="page-hero-corporate">
-      <div class="container text-center position-relative" style="z-index: 2;">
-        <span class="eyebrow-badge bg-white text-dark mb-3"><i class="bi bi-mortarboard-fill text-warning me-1"></i> Pendidikan Vokasi &amp; Mitra Industri SMK</span>
-        <h1 class="heading-title">Program Magang PKL &amp; Prakerin SMK di Kota Malang</h1>
-        <p class="lead-subtitle">
-          Pusat Praktik Kerja Lapangan resmi bagi siswa kejuruan. Membangun kompetensi industri nyata di bidang digital marketing, SEO, web development, dan desain grafis dengan bimbingan intensif mentor praktisi.
-        </p>
-        <div class="breadcrumbs-corporate">
-          <a href="/"><i class="bi bi-house-door me-1"></i> Beranda</a>
-          <span class="divider">/</span>
-          <a href="/program-magang/">Program Magang</a>
-          <span class="divider">/</span>
-          <span class="active">Magang SMK</span>
+    <!-- Executive Corporate Split Hero with WebP Media -->
+    <section class="page-hero-corporate-split">
+      <div class="container position-relative z-1" data-aos="fade-up">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <span class="eyebrow-badge bg-white text-dark mb-3"><i class="bi bi-mortarboard-fill text-warning me-1"></i> Pendidikan Vokasi &amp; Mitra Industri SMK</span>
+            <h1 class="heading-title mb-3">Program Magang PKL &amp; Prakerin SMK di Kota Malang</h1>
+            <p class="lead-subtitle mb-4 text-white" style="max-width: 620px;">
+              Pusat Praktik Kerja Lapangan resmi bagi siswa kejuruan. Membangun kompetensi industri nyata di bidang digital marketing, SEO, web development, dan desain grafis dengan bimbingan intensif mentor praktisi.
+            </p>
+            <div class="d-flex flex-wrap gap-3 align-items-center mb-4">
+              <a href="/program-magang/alur-pendaftaran/" class="btn btn-primary-gm">
+                <i class="bi bi-mortarboard-fill"></i> Daftar PKL Sekarang
+              </a>
+              <a href="#jurusan-smk" class="btn btn-secondary-gm">
+                <i class="bi bi-book"></i> Pilihan Jurusan
+              </a>
+            </div>
+            <div class="breadcrumbs-corporate">
+              <a href="/"><i class="bi bi-house-door me-1"></i> Beranda</a>
+              <span class="divider">/</span>
+              <a href="/program-magang/">Program Magang</a>
+              <span class="divider">/</span>
+              <span class="active">Magang SMK</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="page-hero-img-wrap">
+              <img src="/assets/img/program/smk/hero.webp" alt="Siswa SMK Mengikuti Program Magang PKL di Gemilang Training Malang" width="900" height="540" fetchpriority="high">
+              <div class="hero-floating-badge">
+                <i class="bi bi-patch-check-fill text-warning"></i> MoU Resmi Sekolah &amp; Bimbingan Praktisi
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -143,7 +163,7 @@
     </div>
 
     <!-- Main Content Section -->
-    <section class="section py-5">
+    <section id="jurusan-smk" class="section py-5">
       <div class="container py-3">
 
         <!-- Direct Answer AEO Box -->
@@ -252,6 +272,28 @@
                   <span class="badge bg-light text-dark border">Output: Konfigurasi Live Server &amp; SSL</span>
                   <a href="/program-magang/posisi/" class="fw-bold text-primary small">Rincian Posisi &rarr;</a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Media Showcase: Mentoring & Portfolio Certification -->
+        <div class="row g-4 mb-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="content-visual-block shadow-md">
+              <img src="/assets/img/program/smk/mentoring.webp" alt="Sesi Bimbingan Mentoring Intensif Praktisi Industri untuk Siswa SMK" width="750" height="480" loading="lazy">
+              <div class="visual-caption-bar">
+                <i class="bi bi-person-check-fill text-warning"></i>
+                <span>Bimbingan Praktisi Industri 1-on-1 &amp; Pemantauan Jurnal Harian</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="content-visual-block shadow-md">
+              <img src="/assets/img/program/smk/portfolio.webp" alt="Sertifikasi Tuntas Magang PKL dan Portofolio Siswa SMK" width="750" height="480" loading="lazy">
+              <div class="visual-caption-bar">
+                <i class="bi bi-award-fill text-warning"></i>
+                <span>Portofolio Proyek Nyata &amp; Sertifikat Resmi Berstandar Industri</span>
               </div>
             </div>
           </div>
@@ -378,7 +420,7 @@
         </p>
         <div class="d-flex flex-wrap justify-content-center gap-3">
           <a href="/program-magang/alur-pendaftaran/" class="btn btn-primary-gm"><i class="bi bi-mortarboard-fill me-1"></i> Alur Pendaftaran Lengkap</a>
-          <a href="https://wa.me/6281234567890?text=Halo%20GM%20Academy,%20saya%20ingin%20tanya%20kuota%20PKL%20SMK" target="_blank" rel="noopener noreferrer" class="btn btn-secondary-gm"><i class="bi bi-whatsapp me-1"></i> Chat WhatsApp</a>
+          <a href="https://wa.me/62895639068080?text=Halo%20GM%20Academy,%20saya%20ingin%20tanya%20kuota%20PKL%20SMK" target="_blank" rel="noopener noreferrer" class="btn btn-secondary-gm"><i class="bi bi-whatsapp me-1"></i> Chat WhatsApp</a>
         </div>
       </div>
     </section>
@@ -398,18 +440,6 @@
             <div class="footer-contact pt-3">
               <p>Digital Marketer Agency &amp; Internship Center di Kota Malang. Mengembangkan talenta digital masa depan melalui program magang praktis berbasis proyek nyata dan menghadirkan strategi pemasaran digital terukur untuk bisnis.</p>
             </div>
-            <div class="newsletter-form">
-              <h5>Buletin Edukasi &amp; Karir</h5>
-              <form action="../../forms/newsletter.php" method="post" class="php-email-form">
-                <div class="input-group">
-                  <input type="email" name="email" placeholder="Masukkan email Anda..." required="">
-                  <button type="submit" class="btn-subscribe" aria-label="Langganan Buletin"><i class="bi bi-send"></i></button>
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Terima kasih telah berlangganan!</div>
-              </form>
-            </div>
           </div>
 
           <div class="col-lg-2 col-md-3 col-6 footer-links">
@@ -417,7 +447,7 @@
             <ul>
               <li><a href="/"><i class="bi bi-chevron-right"></i> Beranda</a></li>
               <li><a href="/tentang-kami/"><i class="bi bi-chevron-right"></i> Tentang Kami</a></li>
-              <li><a href="/layanan/"><i class="bi bi-chevron-right"></i> Layanan Agency</a></li>
+              <li><a href="/layanan/"><i class="bi bi-chevron-right"></i> Jasa Agency</a></li>
               <li><a href="/portfolio/"><i class="bi bi-chevron-right"></i> Portfolio</a></li>
               <li><a href="/artikel/"><i class="bi bi-chevron-right"></i> Artikel &amp; Blog</a></li>
               <li><a href="/faq/"><i class="bi bi-chevron-right"></i> Tanya Jawab (FAQ)</a></li>
@@ -435,7 +465,7 @@
               <li><a href="/program-magang/posisi/"><i class="bi bi-chevron-right"></i> Posisi Magang</a></li>
               <li><a href="/program-magang/kompetensi/"><i class="bi bi-chevron-right"></i> Kompetensi Belajar</a></li>
               <li><a href="/program-magang/alur-pendaftaran/"><i class="bi bi-chevron-right"></i> Alur Pendaftaran</a></li>
-              <li><a href="/layanan/seo/"><i class="bi bi-chevron-right"></i> Layanan SEO</a></li>
+              <li><a href="/layanan/seo/"><i class="bi bi-chevron-right"></i> Jasa SEO</a></li>
               <li><a href="/layanan/website-development/"><i class="bi bi-chevron-right"></i> Web Development</a></li>
             </ul>
           </div>
@@ -456,7 +486,7 @@
                 <i class="bi bi-telephone"></i>
               </div>
               <div class="contact-info">
-                <p><a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="text-reset">+62 812-3456-7890</a></p>
+                <p><a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" class="text-reset">+62 895-6390-68080</a></p>
               </div>
             </div>
 
@@ -470,7 +500,7 @@
             </div>
 
             <div class="social-links">
-              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Gemilang Training"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Gemilang Training"><i class="bi bi-whatsapp"></i></a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram Gemilang Training"><i class="bi bi-instagram"></i></a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Gemilang Training"><i class="bi bi-linkedin"></i></a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube Gemilang Training"><i class="bi bi-youtube"></i></a>
@@ -503,7 +533,7 @@
 
   </footer>
 
-  <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="wa-floating-btn" aria-label="Konsultasi WhatsApp">
+  <a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" class="wa-floating-btn" aria-label="Konsultasi WhatsApp">
     <i class="bi bi-whatsapp"></i>
   </a>
 

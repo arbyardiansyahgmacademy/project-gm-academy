@@ -46,9 +46,9 @@
         <ul>
           <li><a href="/">Beranda</a></li>
           <li><a href="/tentang-kami/">Tentang Kami</a></li>
-          <li class="dropdown"><a href="/layanan/"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="/layanan/"><span>Jasa</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="/layanan/">Semua Layanan</a></li>
+              <li><a href="/layanan/">Semua Jasa</a></li>
               <li><a href="/layanan/digital-marketing/">Digital Marketing</a></li>
               <li><a href="/layanan/seo/">SEO</a></li>
               <li><a href="/layanan/social-media/">Social Media Marketing</a></li>
@@ -80,20 +80,40 @@
 
   <main class="main">
 
-    <!-- Corporate Hero Banner -->
-    <section class="page-hero-corporate">
-      <div class="container text-center position-relative" style="z-index: 2;">
-        <span class="eyebrow-badge bg-white text-dark mb-3"><i class="bi bi-person-workspace text-warning me-1"></i> Peluang &amp; Spesialisasi Magang</span>
-        <h1 class="heading-title">Posisi Magang Industri di Gemilang Training Malang</h1>
-        <p class="lead-subtitle">
-          Pilih divisi kerja digital yang sesuai dengan minat dan kompetensi keahlian Anda. Setiap posisi dilengkapi kurikulum praktik terarah, bimbingan 1-on-1 bersama praktisi, dan target portofolio riil.
-        </p>
-        <div class="breadcrumbs-corporate">
-          <a href="/"><i class="bi bi-house-door me-1"></i> Beranda</a>
-          <span class="divider">/</span>
-          <a href="/program-magang/">Program Magang</a>
-          <span class="divider">/</span>
-          <span class="active">Posisi Magang</span>
+    <!-- Executive Corporate Split Hero with WebP Media -->
+    <section class="page-hero-corporate-split">
+      <div class="container position-relative z-1" data-aos="fade-up">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <span class="eyebrow-badge bg-white text-dark mb-3"><i class="bi bi-person-workspace text-warning me-1"></i> Peluang &amp; Spesialisasi Magang</span>
+            <h1 class="heading-title mb-3">Posisi Magang Industri di Gemilang Training Malang</h1>
+            <p class="lead-subtitle mb-4 text-white" style="max-width: 620px;">
+              Pilih divisi kerja digital yang sesuai dengan minat dan kompetensi keahlian Anda. Setiap posisi dilengkapi kurikulum praktik terarah, bimbingan 1-on-1 bersama praktisi, dan target portofolio riil.
+            </p>
+            <div class="d-flex flex-wrap gap-3 align-items-center mb-4">
+              <a href="/program-magang/alur-pendaftaran/" class="btn btn-primary-gm">
+                <i class="bi bi-mortarboard-fill"></i> Daftar Magang Sekarang
+              </a>
+              <a href="#posisi-list" class="btn btn-secondary-gm">
+                <i class="bi bi-grid-fill"></i> Lihat 6 Divisi
+              </a>
+            </div>
+            <div class="breadcrumbs-corporate">
+              <a href="/"><i class="bi bi-house-door me-1"></i> Beranda</a>
+              <span class="divider">/</span>
+              <a href="/program-magang/">Program Magang</a>
+              <span class="divider">/</span>
+              <span class="active">Posisi Magang</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="page-hero-img-wrap">
+              <img src="/assets/img/program/posisi/hero.webp" alt="Posisi Magang Industri di Gemilang Training Malang" width="900" height="540" fetchpriority="high">
+              <div class="hero-floating-badge">
+                <i class="bi bi-award-fill text-warning"></i> 6 Divisi Spesialisasi &amp; Praktik Proyek Riil
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -143,7 +163,7 @@
     </div>
 
     <!-- Main Content Section -->
-    <section class="section py-5">
+    <section id="posisi-list" class="section py-5">
       <div class="container py-3">
 
         <!-- Direct Answer AEO Box -->
@@ -154,13 +174,16 @@
           </p>
         </div>
 
-        <!-- 6 Premium Position Cards Grid -->
+        <!-- 6 Premium Position Cards Grid with WebP Visuals -->
         <div class="row g-4 mb-5">
 
           <!-- 1. SEO Specialist & Web Auditor -->
           <div class="col-lg-4 col-md-6" id="seo">
             <div class="internship-track-card">
-              <span class="track-badge-quota"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              <div class="track-card-media">
+                <img src="/assets/img/program/posisi/posisi-seo.webp" alt="Posisi Magang SEO Specialist dan Web Auditor" width="650" height="420" loading="lazy">
+                <span class="track-badge-quota" style="top: 10px; right: 10px;"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              </div>
               <div class="track-icon-wrapper"><i class="bi bi-search"></i></div>
               <div class="text-muted small fw-bold text-uppercase mb-1" style="font-size: 11px;">Jalur: SMK (RPL/BDP) &amp; Mahasiswa</div>
               <h4 class="fw-bold mb-2">SEO Specialist &amp; Web Auditor</h4>
@@ -193,7 +216,10 @@
           <!-- 2. Social Media Strategist -->
           <div class="col-lg-4 col-md-6" id="social-media">
             <div class="internship-track-card">
-              <span class="track-badge-quota"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              <div class="track-card-media">
+                <img src="/assets/img/program/posisi/posisi-sosmed.webp" alt="Posisi Magang Social Media Strategist" width="650" height="420" loading="lazy">
+                <span class="track-badge-quota" style="top: 10px; right: 10px;"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              </div>
               <div class="track-icon-wrapper"><i class="bi bi-share-fill"></i></div>
               <div class="text-muted small fw-bold text-uppercase mb-1" style="font-size: 11px;">Jalur: SMK (BDP/DKV) &amp; Mahasiswa</div>
               <h4 class="fw-bold mb-2">Social Media Strategist</h4>
@@ -226,7 +252,10 @@
           <!-- 3. Content Writer & Copywriter -->
           <div class="col-lg-4 col-md-6" id="content">
             <div class="internship-track-card">
-              <span class="track-badge-quota"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              <div class="track-card-media">
+                <img src="/assets/img/program/posisi/posisi-content.webp" alt="Posisi Magang Content Writer dan Copywriter" width="650" height="420" loading="lazy">
+                <span class="track-badge-quota" style="top: 10px; right: 10px;"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              </div>
               <div class="track-icon-wrapper"><i class="bi bi-pen-fill"></i></div>
               <div class="text-muted small fw-bold text-uppercase mb-1" style="font-size: 11px;">Jalur: SMK &amp; Mahasiswa (Komunikasi/Bahasa)</div>
               <h4 class="fw-bold mb-2">Content Writer &amp; Copywriter</h4>
@@ -259,7 +288,10 @@
           <!-- 4. Front-End Web Developer -->
           <div class="col-lg-4 col-md-6" id="webdev">
             <div class="internship-track-card">
-              <span class="track-badge-quota"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              <div class="track-card-media">
+                <img src="/assets/img/program/posisi/posisi-web.webp" alt="Posisi Magang Front-End Web Developer" width="650" height="420" loading="lazy">
+                <span class="track-badge-quota" style="top: 10px; right: 10px;"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              </div>
               <div class="track-icon-wrapper"><i class="bi bi-code-slash"></i></div>
               <div class="text-muted small fw-bold text-uppercase mb-1" style="font-size: 11px;">Jalur: SMK (RPL) &amp; Mahasiswa (Informatika/SI)</div>
               <h4 class="fw-bold mb-2">Front-End Web Developer</h4>
@@ -292,7 +324,10 @@
           <!-- 5. Graphic Designer & UI/UX Support -->
           <div class="col-lg-4 col-md-6" id="design">
             <div class="internship-track-card">
-              <span class="track-badge-quota"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              <div class="track-card-media">
+                <img src="/assets/img/program/posisi/posisi-uiux.webp" alt="Posisi Magang Graphic Designer dan UI/UX Support" width="650" height="420" loading="lazy">
+                <span class="track-badge-quota" style="top: 10px; right: 10px;"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              </div>
               <div class="track-icon-wrapper"><i class="bi bi-palette-fill"></i></div>
               <div class="text-muted small fw-bold text-uppercase mb-1" style="font-size: 11px;">Jalur: SMK (DKV/MM) &amp; Mahasiswa (Desain)</div>
               <h4 class="fw-bold mb-2">Graphic Designer &amp; UI/UX</h4>
@@ -325,7 +360,10 @@
           <!-- 6. Digital Ads & Growth Support -->
           <div class="col-lg-4 col-md-6" id="ads">
             <div class="internship-track-card">
-              <span class="track-badge-quota"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              <div class="track-card-media">
+                <img src="/assets/img/program/posisi/posisi-ads.webp" alt="Posisi Magang Digital Ads dan Growth Support" width="650" height="420" loading="lazy">
+                <span class="track-badge-quota" style="top: 10px; right: 10px;"><i class="bi bi-check-circle-fill me-1"></i> Kuota Aktif</span>
+              </div>
               <div class="track-icon-wrapper"><i class="bi bi-graph-up-arrow"></i></div>
               <div class="text-muted small fw-bold text-uppercase mb-1" style="font-size: 11px;">Jalur: SMK (BDP) &amp; Mahasiswa (Manajemen/Bisnis)</div>
               <h4 class="fw-bold mb-2">Digital Ads &amp; Growth Support</h4>
@@ -357,6 +395,51 @@
 
         </div>
 
+        <!-- Visual Media Showcase: Daily Standup & Cross-Division Workflow -->
+        <div class="p-4 p-lg-5 bg-white border rounded-4 shadow-sm mb-5">
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-6">
+              <span class="eyebrow-badge">Alur Kolaborasi Tim</span>
+              <h3 class="fw-bold mb-3">Ekosistem Kerja Agensi yang Terstruktur &amp; Kolaboratif</h3>
+              <p class="text-muted leading-relaxed mb-4">
+                Setiap peserta magang di semua divisi tidak bekerja sendirian di dalam silo. Anda akan terlibat dalam alur kerja agensi digital modern yang menghubungkan riset kata kunci (SEO), penulisan konten (Copywriting), aset visual (UI/UX), hingga kampanye iklan berbayar (Digital Ads).
+              </p>
+              <div class="d-flex flex-column gap-3">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="stat-icon" style="width: 40px; height: 40px; font-size: 18px;"><i class="bi bi-clock-history"></i></div>
+                  <div>
+                    <h6 class="fw-bold mb-1">Daily Standup &amp; Task Planning</h6>
+                    <p class="small text-muted mb-0">Briefing 15 menit setiap pagi untuk sinkronisasi target harian, kendala teknis, dan prioritas tugas lintas divisi.</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-start gap-3">
+                  <div class="stat-icon" style="width: 40px; height: 40px; font-size: 18px;"><i class="bi bi-kanban-fill"></i></div>
+                  <div>
+                    <h6 class="fw-bold mb-1">Project Board Management</h6>
+                    <p class="small text-muted mb-0">Penggunaan Notion dan Trello untuk transparansi workflow kerja standar tim industri agensi digital.</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-start gap-3">
+                  <div class="stat-icon" style="width: 40px; height: 40px; font-size: 18px;"><i class="bi bi-award"></i></div>
+                  <div>
+                    <h6 class="fw-bold mb-1">Weekly Review &amp; Mentorship 1-on-1</h6>
+                    <p class="small text-muted mb-0">Evaluasi mingguan bersama mentor spesialis untuk mengulas hasil kerja, memberikan feedback teknis, dan mengukur progres portofolio.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="content-visual-block shadow-md">
+                <img src="/assets/img/program/posisi/workflow.webp" alt="Kolaborasi Daily Standup dan Workflow Tim Magang Gemilang Training" width="750" height="480" loading="lazy">
+                <div class="visual-caption-bar">
+                  <i class="bi bi-diagram-3-fill text-warning"></i>
+                  <span>Alur Kerja Tim Agensi, Daily Standup &amp; Bimbingan Proyek Nyata</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -369,7 +452,7 @@
         </p>
         <div class="d-flex flex-wrap justify-content-center gap-3">
           <a href="/program-magang/alur-pendaftaran/" class="btn btn-primary-gm"><i class="bi bi-mortarboard-fill me-1"></i> Buka Alur Pendaftaran</a>
-          <a href="https://wa.me/6281234567890?text=Halo%20GM%20Academy,%20saya%20ingin%20konsultasi%20pilihan%20posisi%20magang" target="_blank" rel="noopener noreferrer" class="btn btn-secondary-gm"><i class="bi bi-whatsapp me-1"></i> Tanya Mentor via WhatsApp</a>
+          <a href="https://wa.me/62895639068080?text=Halo%20GM%20Academy,%20saya%20ingin%20konsultasi%20pilihan%20posisi%20magang" target="_blank" rel="noopener noreferrer" class="btn btn-secondary-gm"><i class="bi bi-whatsapp me-1"></i> Tanya Mentor via WhatsApp</a>
         </div>
       </div>
     </section>
@@ -389,18 +472,6 @@
             <div class="footer-contact pt-3">
               <p>Digital Marketer Agency &amp; Internship Center di Kota Malang. Mengembangkan talenta digital masa depan melalui program magang praktis berbasis proyek nyata dan menghadirkan strategi pemasaran digital terukur untuk bisnis.</p>
             </div>
-            <div class="newsletter-form">
-              <h5>Buletin Edukasi &amp; Karir</h5>
-              <form action="../../forms/newsletter.php" method="post" class="php-email-form">
-                <div class="input-group">
-                  <input type="email" name="email" placeholder="Masukkan email Anda..." required="">
-                  <button type="submit" class="btn-subscribe" aria-label="Langganan Buletin"><i class="bi bi-send"></i></button>
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Terima kasih telah berlangganan!</div>
-              </form>
-            </div>
           </div>
 
           <div class="col-lg-2 col-md-3 col-6 footer-links">
@@ -408,7 +479,7 @@
             <ul>
               <li><a href="/"><i class="bi bi-chevron-right"></i> Beranda</a></li>
               <li><a href="/tentang-kami/"><i class="bi bi-chevron-right"></i> Tentang Kami</a></li>
-              <li><a href="/layanan/"><i class="bi bi-chevron-right"></i> Layanan Agency</a></li>
+              <li><a href="/layanan/"><i class="bi bi-chevron-right"></i> Jasa Agency</a></li>
               <li><a href="/portfolio/"><i class="bi bi-chevron-right"></i> Portfolio</a></li>
               <li><a href="/artikel/"><i class="bi bi-chevron-right"></i> Artikel &amp; Blog</a></li>
               <li><a href="/faq/"><i class="bi bi-chevron-right"></i> Tanya Jawab (FAQ)</a></li>
@@ -426,7 +497,7 @@
               <li><a href="/program-magang/posisi/"><i class="bi bi-chevron-right"></i> Posisi Magang</a></li>
               <li><a href="/program-magang/kompetensi/"><i class="bi bi-chevron-right"></i> Kompetensi Belajar</a></li>
               <li><a href="/program-magang/alur-pendaftaran/"><i class="bi bi-chevron-right"></i> Alur Pendaftaran</a></li>
-              <li><a href="/layanan/seo/"><i class="bi bi-chevron-right"></i> Layanan SEO</a></li>
+              <li><a href="/layanan/seo/"><i class="bi bi-chevron-right"></i> Jasa SEO</a></li>
               <li><a href="/layanan/website-development/"><i class="bi bi-chevron-right"></i> Web Development</a></li>
             </ul>
           </div>
@@ -447,7 +518,7 @@
                 <i class="bi bi-telephone"></i>
               </div>
               <div class="contact-info">
-                <p><a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="text-reset">+62 812-3456-7890</a></p>
+                <p><a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" class="text-reset">+62 895-6390-68080</a></p>
               </div>
             </div>
 
@@ -461,7 +532,7 @@
             </div>
 
             <div class="social-links">
-              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Gemilang Training"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Gemilang Training"><i class="bi bi-whatsapp"></i></a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram Gemilang Training"><i class="bi bi-instagram"></i></a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Gemilang Training"><i class="bi bi-linkedin"></i></a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube Gemilang Training"><i class="bi bi-youtube"></i></a>
@@ -494,7 +565,7 @@
 
   </footer>
 
-  <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="wa-floating-btn" aria-label="Konsultasi WhatsApp">
+  <a href="https://wa.me/62895639068080" target="_blank" rel="noopener noreferrer" class="wa-floating-btn" aria-label="Konsultasi WhatsApp">
     <i class="bi bi-whatsapp"></i>
   </a>
 
