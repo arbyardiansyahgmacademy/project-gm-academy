@@ -217,10 +217,10 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #5b5b5b;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --nav-color: #ffffff;
+  --background-color: #ffffff;
+  --default-color: #111827;
+  --heading-color: #111827;
+  --nav-color: #111827;
 }
 
 /* Index Page Header
@@ -234,8 +234,8 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: #5b5b5b;
-  --nav-color: #ffffff;
+  --background-color: #ffffff;
+  --nav-color: #111827;
 }
 
 /*--------------------------------------------------------------
